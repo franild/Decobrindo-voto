@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Tudo sobre o Voto</title>
+</head>
+<body>
+  <header>
+    <img width="25%" src="https://porelas.tre-pr.jus.br/img/Reduzido_Chapado.png" alt="logo justiça eleitoral">
+  </header>
+  <main>
+  <h1>
+    Justiça Eleitoral
+  </h1>
+  <p>Digite sua idade para revelar sua obrigatoriedade.</p>
+   
+  <section class="flex-container">
+    <div class="area1">
+      <form action="">
+        <fieldset>
+          <legend>Preencha os campos abaixo</legend>
+          <label for="nome">Nome:</label><br>
+          <input type="text" placeholder="EX:Maria Conceição" id="nome"><br>
+          <label for="idade">Idade:</label><br>
+          <input type="number" placeholder="EX:21"pattern="[0-9]" title="Digite em numeros" id="idade"><br>
+          <input type="button" value="Calcular" onclick="voto()" class="button">
+        </fieldset>
+      </form>
+    </div>
+    
+    <div class="area2">
+      <img src="urna.png" alt="imagem urna eletronica" class="img-urna">
+          </div>    
+  </section>
+    <p>Seu voto <strong>Seguro</strong></p>
+    <div id="res">
+      
+    </div>
+  </main>
+  <footer>
+    <p>Saiba mais <a href="https://www.tse.jus.br/" target="_blank">aqui</a></p>
+    
+    <div  align="center" >
+      <h5>Site meramente ilustrativo</h5>
+<a href="mailto:franyldo.silva@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://contate.me/Franildo.silva" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/franildo-silva-a79733222" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://youtube.com/channel/UCs9cCmA2ujN7PJdxwIIl4LA" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
+<a href="https://github.com/franild" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
